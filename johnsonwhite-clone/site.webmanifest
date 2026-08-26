@@ -1,0 +1,32 @@
+{
+    "name": "Johnson White Cool Services",
+    "short_name": "JW Cool Services",
+    "description": "Nigeria's leading air conditioning and ventilation company. AC installation, repair, and maintenance.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#00aeee",
+    "orientation": "any",
+    "scope": "/",
+    "lang": "en",
+    "categories": ["business", "utilities"],
+    "icons": [
+        {
+            "src": "img/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "img/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "img/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [],
+    "prefer_related_applications": false
+}

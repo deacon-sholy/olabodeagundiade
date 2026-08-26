@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Gallery of completed AC installation, repair, and ventilation projects by Johnson White Cool Services in Nigeria.">
+    <meta name="theme-color" content="#00aeee">
+    <meta name="robots" content="index, follow">
+    <title>Project Gallery | Johnson White Cool Services</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Project Gallery | Johnson White Cool Services">
+    <meta property="og:description" content="See our completed AC installation, repair, and ventilation projects across Nigeria.">
+    <meta property="og:image" content="img/johnsonwhitelogo.webp">
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gallery-page.css">
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+    <div class="container top-bar-inner">
+        <div class="top-bar-left">
+            <span><i class="fas fa-clock"></i> Mon - Fri 8:00 - 6:30</span>
+            <span class="divider">|</span>
+            <span><i class="fas fa-map-marker-alt"></i> No. 2 Barka Street, Kwamba, Suleja, Niger State</span>
+        </div>
+        <div class="top-bar-right">
+            <span><i class="fas fa-phone"></i> <a href="tel:+2348053441145">+234 805 344 1145</a></span>
+            <span class="divider">|</span>
+            <span><i class="fas fa-envelope"></i> <a href="mailto:jwhite0556@gmail.com">jwhite0556@gmail.com</a></span>
+        </div>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="header" id="header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <img src="img/johnsonwhitelogo.webp" alt="Johnson White Cool Services" class="logo-img">
+        </a>
+        <nav class="nav" id="nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html#about" class="nav-link">About</a>
+            <a href="index.html#services" class="nav-link">Services</a>
+            <a href="gallery.html" class="nav-link active">Gallery</a>
+            <a href="index.html#blog" class="nav-link">Blog</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+            <a href="index.html#contact" class="nav-btn">Get a Quote</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<!-- Gallery Hero -->
+<section class="gallery-hero">
+    <div class="container">
+        <div class="section-label center">
+            <span class="label-line"></span>
+            <span>Our Portfolio</span>
+            <span class="label-line"></span>
+        </div>
+        <h1>Project <span class="accent">Gallery</span></h1>
+        <p>Browse through our completed air conditioning, ventilation, and heating projects across Nigeria.</p>
+    </div>
+</section>
+
+<!-- Gallery Filters & Grid -->
+<section class="gallery-page-section">
+    <div class="container">
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="installation">Installation</button>
+            <button class="filter-btn" data-filter="repair">Repair</button>
+            <button class="filter-btn" data-filter="ventilation">Ventilation</button>
+            <button class="filter-btn" data-filter="commercial">Commercial</button>
+            <button class="filter-btn" data-filter="residential">Residential</button>
+        </div>
+
+        <div class="gallery-page-grid" id="galleryGrid">
+            <div class="gallery-page-item" data-category="installation commercial" data-title="Office Complex Central AC" data-desc="Complete central air conditioning installation for a 3-story office building in Suleja, Niger State.">
+                <div class="gallery-page-placeholder">
+                    <i class="fas fa-snowflake"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Installation</span>
+                    <h4>Office Complex Central AC</h4>
+                    <p>3-story office building in Suleja</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="ventilation commercial" data-title="Warehouse Ventilation System" data-desc="Industrial-grade ventilation system design and installation for a large warehouse facility.">
+                <div class="gallery-page-placeholder ventilation-bg">
+                    <i class="fas fa-wind"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Ventilation</span>
+                    <h4>Warehouse Ventilation System</h4>
+                    <p>Industrial ventilation installation</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="repair residential" data-title="Split Unit Emergency Repair" data-desc="Same-day emergency repair of multiple split AC units for a residential client.">
+                <div class="gallery-page-placeholder repair-bg">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Repair</span>
+                    <h4>Split Unit Emergency Repair</h4>
+                    <p>Same-day residential service</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="commercial installation" data-title="Shopping Mall HVAC" data-desc="Full HVAC solution for a shopping complex including cooling, heating, and air circulation.">
+                <div class="gallery-page-placeholder commercial-bg">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Commercial</span>
+                    <h4>Shopping Mall HVAC</h4>
+                    <p>Complete HVAC solution</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="residential installation" data-title="Multi-Room Home AC" data-desc="Multi-room split AC installation for a 5-bedroom residential property in Minna.">
+                <div class="gallery-page-placeholder residential-bg">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Residential</span>
+                    <h4>Multi-Room Home AC</h4>
+                    <p>5-bedroom property in Minna</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="installation residential" data-title="Central Heating Installation" data-desc="Complete central heating system for a hotel facility during the cooler season.">
+                <div class="gallery-page-placeholder heating-bg">
+                    <i class="fas fa-thermometer-half"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Installation</span>
+                    <h4>Central Heating Installation</h4>
+                    <p>Hotel heating system</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="commercial ventilation" data-title="Hospital Ventilation" data-desc="Critical ventilation system upgrade for a hospital in Suleja, ensuring clean air circulation in all wards.">
+                <div class="gallery-page-placeholder ventilation-bg">
+                    <i class="fas fa-lungs"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Ventilation</span>
+                    <h4>Hospital Ventilation</h4>
+                    <p>Ward air circulation system</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="repair commercial" data-title="Office AC Maintenance Contract" data-desc="Ongoing quarterly maintenance contract for a corporate office complex with 50+ AC units.">
+                <div class="gallery-page-placeholder repair-bg">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Repair</span>
+                    <h4>Office AC Maintenance</h4>
+                    <p>50+ unit maintenance contract</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="residential installation" data-title="Estate AC Installation" data-desc="Bulk AC installation across 12 housing units in a residential estate development.">
+                <div class="gallery-page-placeholder residential-bg">
+                    <i class="fas fa-house-chimney"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Residential</span>
+                    <h4>Estate AC Installation</h4>
+                    <p>12-unit housing development</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="commercial installation" data-title="Server Room Cooling" data-desc="Precision cooling system for a data center server room requiring constant temperature control.">
+                <div class="gallery-page-placeholder commercial-bg">
+                    <i class="fas fa-server"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Commercial</span>
+                    <h4>Server Room Cooling</h4>
+                    <p>Precision temperature control</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="repair residential" data-title="Inverter AC Repair" data-desc="Specialized repair of inverter-type split AC units, restoring energy efficiency and cooling performance.">
+                <div class="gallery-page-placeholder repair-bg">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Repair</span>
+                    <h4>Inverter AC Repair</h4>
+                    <p>Energy efficiency restoration</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="gallery-page-item" data-category="ventilation residential" data-title="Kitchen Exhaust System" data-desc="Commercial kitchen exhaust and ventilation system for a restaurant in Suleja.">
+                <div class="gallery-page-placeholder ventilation-bg">
+                    <i class="fas fa-kitchen-set"></i>
+                </div>
+                <div class="gallery-page-overlay">
+                    <span class="gallery-page-tag">Ventilation</span>
+                    <h4>Kitchen Exhaust System</h4>
+                    <p>Restaurant ventilation</p>
+                    <button class="gallery-page-zoom" aria-label="View project"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <div class="cta-bg"></div>
+    <div class="container cta-content">
+        <div class="cta-text">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Contact us for a free consultation and quote.</p>
+        </div>
+        <a href="index.html#contact" class="btn btn-glow btn-cta">
+            <i class="fas fa-phone"></i>
+            <span>+234 805 344 1145</span>
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-wave">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+            <path d="M0,40 C360,100 720,0 1080,50 C1260,75 1380,25 1440,40 L1440,0 L0,0 Z" fill="currentColor"></path>
+        </svg>
+    </div>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col footer-about">
+                <a href="index.html" class="footer-logo">
+                    <img src="img/johnsonwhitelogo.webp" alt="Johnson White Cool Services" class="logo-img footer-logo-img">
+                </a>
+                <p>Trusted air conditioning and ventilation solutions for residential, commercial, and industrial clients in Nigeria since 2010.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="index.html#services">Ventilation Systems</a></li>
+                    <li><a href="index.html#services">AC Installation</a></li>
+                    <li><a href="index.html#services">AC Repair</a></li>
+                    <li><a href="index.html#services">Heating Services</a></li>
+                    <li><a href="index.html#services">Maintenance</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact-list">
+                    <li><i class="fas fa-map-marker-alt"></i><span>No. 2 Barka Street, Kwamba, Suleja, Niger State</span></li>
+                    <li><i class="fas fa-phone"></i><span><a href="tel:+2348053441145">+234 805 344 1145</a></span></li>
+                    <li><i class="fas fa-envelope"></i><span><a href="mailto:jwhite0556@gmail.com">jwhite0556@gmail.com</a></span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <p>&copy; 2026 Johnson White Cool Services. All Rights Reserved. | <a href="privacy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/2348053441145" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-pulse"></div>
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Lightbox -->
+<div class="lightbox-overlay" id="lightbox">
+    <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-body">
+            <div class="lightbox-visual" id="lightboxVisual"></div>
+            <div class="lightbox-info">
+                <span class="lightbox-tag" id="lightboxTag"></span>
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxDesc"></p>
+            </div>
+        </div>
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Header scroll
+    const header = document.getElementById('header');
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+        header.classList.toggle('scrolled', window.scrollY > 50);
+        backToTop.classList.toggle('visible', window.scrollY > 500);
+    });
+    backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Mobile menu
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav');
+    const overlay = document.createElement('div');
+    overlay.className = 'nav-overlay';
+    document.body.appendChild(overlay);
+    function toggleMenu() {
+        hamburger.classList.toggle('active');
+        nav.classList.toggle('active');
+        overlay.classList.toggle('active');
+        document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+    }
+    hamburger.addEventListener('click', toggleMenu);
+    overlay.addEventListener('click', toggleMenu);
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => { if (nav.classList.contains('active')) toggleMenu(); }));
+
+    // Gallery filter
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const items = document.querySelectorAll('.gallery-page-item');
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const filter = btn.dataset.filter;
+            items.forEach(item => {
+                if (filter === 'all' || item.dataset.category.includes(filter)) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+        });
+    });
+
+    // Fade-in on scroll
+    items.forEach((el, i) => {
+        el.classList.add('fade-in');
+        el.style.transitionDelay = (i * 0.05) + 's';
+    });
+    const fadeObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    items.forEach(el => fadeObserver.observe(el));
+
+    // Lightbox
+    const lightbox = document.getElementById('lightbox');
+    const lightboxVisual = document.getElementById('lightboxVisual');
+    const lightboxTag = document.getElementById('lightboxTag');
+    const lightboxTitle = document.getElementById('lightboxTitle');
+    const lightboxDesc = document.getElementById('lightboxDesc');
+    const lightboxCounter = document.getElementById('lightboxCounter');
+    let currentIndex = 0;
+    let visibleItems = [];
+
+    function getVisibleItems() {
+        return Array.from(items).filter(item => !item.classList.contains('hidden'));
+    }
+
+    function openLightbox(index) {
+        visibleItems = getVisibleItems();
+        currentIndex = index;
+        updateLightbox();
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    function updateLightbox() {
+        const item = visibleItems[currentIndex];
+        const visual = item.querySelector('.gallery-page-placeholder');
+        const icon = visual.querySelector('i').className;
+        const bg = window.getComputedStyle(visual).background;
+        lightboxVisual.innerHTML = '<i class="' + icon + '"></i>';
+        lightboxVisual.style.background = bg;
+        lightboxTag.textContent = item.dataset.category.split(' ')[0];
+        lightboxTitle.textContent = item.dataset.title;
+        lightboxDesc.textContent = item.dataset.desc;
+        lightboxCounter.textContent = (currentIndex + 1) + ' / ' + visibleItems.length;
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % visibleItems.length;
+        updateLightbox();
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + visibleItems.length) % visibleItems.length;
+        updateLightbox();
+    }
+
+    document.querySelectorAll('.gallery-page-zoom').forEach((btn, i) => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const item = btn.closest('.gallery-page-item');
+            const allVisible = getVisibleItems();
+            openLightbox(allVisible.indexOf(item));
+        });
+    });
+
+    items.forEach(item => {
+        item.addEventListener('click', () => {
+            const allVisible = getVisibleItems();
+            openLightbox(allVisible.indexOf(item));
+        });
+    });
+
+    document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+    document.getElementById('lightboxNext').addEventListener('click', nextSlide);
+    document.getElementById('lightboxPrev').addEventListener('click', prevSlide);
+    document.addEventListener('keydown', e => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowRight') nextSlide();
+        if (e.key === 'ArrowLeft') prevSlide();
+    });
+});
+</script>
+</body>
+</html>

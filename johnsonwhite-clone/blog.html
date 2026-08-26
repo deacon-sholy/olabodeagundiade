@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Read the latest articles, tips, and news from Johnson White Cool Services about air conditioning and ventilation in Nigeria.">
+    <meta name="theme-color" content="#00aeee">
+    <meta name="robots" content="index, follow">
+    <title>Blog | Johnson White Cool Services</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Blog | Johnson White Cool Services">
+    <meta property="og:description" content="Latest articles, AC tips, and company news from Johnson White Cool Services.">
+    <meta property="og:image" content="img/johnsonwhitelogo.webp">
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog-page.css">
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+    <div class="container top-bar-inner">
+        <div class="top-bar-left">
+            <span><i class="fas fa-clock"></i> Mon - Fri 8:00 - 6:30</span>
+            <span class="divider">|</span>
+            <span><i class="fas fa-map-marker-alt"></i> No. 2 Barka Street, Kwamba, Suleja, Niger State</span>
+        </div>
+        <div class="top-bar-right">
+            <span><i class="fas fa-phone"></i> <a href="tel:+2348053441145">+234 805 344 1145</a></span>
+            <span class="divider">|</span>
+            <span><i class="fas fa-envelope"></i> <a href="mailto:jwhite0556@gmail.com">jwhite0556@gmail.com</a></span>
+        </div>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="header" id="header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <img src="img/johnsonwhitelogo.webp" alt="Johnson White Cool Services" class="logo-img">
+        </a>
+        <nav class="nav" id="nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html#about" class="nav-link">About</a>
+            <a href="index.html#services" class="nav-link">Services</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="blog.html" class="nav-link active">Blog</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+            <a href="index.html#contact" class="nav-btn">Get a Quote</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<!-- Blog Hero -->
+<section class="blog-hero">
+    <div class="container">
+        <div class="section-label center">
+            <span class="label-line"></span>
+            <span>Our Blog</span>
+            <span class="label-line"></span>
+        </div>
+        <h1>Latest <span class="accent">Articles</span></h1>
+        <p>Expert tips, industry insights, and company news to help you get the most from your air conditioning.</p>
+    </div>
+</section>
+
+<!-- Blog Content -->
+<section class="blog-page-section">
+    <div class="container">
+        <div class="blog-page-filters">
+            <button class="filter-btn active" data-filter="all">All Posts</button>
+            <button class="filter-btn" data-filter="news">News</button>
+            <button class="filter-btn" data-filter="company">Company</button>
+            <button class="filter-btn" data-filter="ac-tips">AC Tips</button>
+        </div>
+
+        <div class="blog-page-grid" id="blogGrid">
+            <!-- Article cards populated by JS -->
+        </div>
+
+        <!-- Full Article View -->
+        <div class="blog-article-full" id="blogArticle" style="display:none;">
+            <button class="blog-article-back" id="blogBack"><i class="fas fa-arrow-left"></i> Back to All Articles</button>
+            <article class="blog-article">
+                <div class="blog-article-hero" id="articleHero">
+                    <div class="blog-article-hero-overlay"></div>
+                    <div class="blog-article-hero-icon" id="articleHeroIcon"></div>
+                </div>
+                <div class="blog-article-content">
+                    <div class="blog-article-header">
+                        <span class="blog-article-tag" id="articleTag"></span>
+                        <h2 id="articleTitle"></h2>
+                        <div class="blog-article-meta">
+                            <span id="articleDate"><i class="fas fa-calendar-alt"></i></span>
+                            <span><i class="fas fa-user-circle"></i> Johnson White</span>
+                            <span id="articleReadTime"><i class="fas fa-clock"></i></span>
+                        </div>
+                    </div>
+                    <div class="blog-article-body" id="articleBody"></div>
+                    <div class="blog-article-share">
+                        <span>Share this article:</span>
+                        <a href="#" class="share-btn" aria-label="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="share-btn" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="share-btn" aria-label="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="share-btn" aria-label="Share via Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <div class="cta-bg"></div>
+    <div class="container cta-content">
+        <div class="cta-text">
+            <h2>Need AC Service?</h2>
+            <p>Contact us for a free consultation and quote.</p>
+        </div>
+        <a href="index.html#contact" class="btn btn-glow btn-cta">
+            <i class="fas fa-phone"></i>
+            <span>+234 805 344 1145</span>
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-wave">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+            <path d="M0,40 C360,100 720,0 1080,50 C1260,75 1380,25 1440,40 L1440,0 L0,0 Z" fill="currentColor"></path>
+        </svg>
+    </div>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col footer-about">
+                <a href="index.html" class="footer-logo">
+                    <img src="img/johnsonwhitelogo.webp" alt="Johnson White Cool Services" class="logo-img footer-logo-img">
+                </a>
+                <p>Trusted air conditioning and ventilation solutions for residential, commercial, and industrial clients in Nigeria since 2010.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="index.html#services">Ventilation Systems</a></li>
+                    <li><a href="index.html#services">AC Installation</a></li>
+                    <li><a href="index.html#services">AC Repair</a></li>
+                    <li><a href="index.html#services">Heating Services</a></li>
+                    <li><a href="index.html#services">Maintenance</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact-list">
+                    <li><i class="fas fa-map-marker-alt"></i><span>No. 2 Barka Street, Kwamba, Suleja, Niger State</span></li>
+                    <li><i class="fas fa-phone"></i><span><a href="tel:+2348053441145">+234 805 344 1145</a></span></li>
+                    <li><i class="fas fa-envelope"></i><span><a href="mailto:jwhite0556@gmail.com">jwhite0556@gmail.com</a></span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <p>&copy; 2026 Johnson White Cool Services. All Rights Reserved. | <a href="privacy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/2348053441145" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-pulse"></div>
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="blog-data.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Header scroll
+    const header = document.getElementById('header');
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+        header.classList.toggle('scrolled', window.scrollY > 50);
+        backToTop.classList.toggle('visible', window.scrollY > 500);
+    });
+    backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Mobile menu
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav');
+    const overlay = document.createElement('div');
+    overlay.className = 'nav-overlay';
+    document.body.appendChild(overlay);
+    function toggleMenu() {
+        hamburger.classList.toggle('active');
+        nav.classList.toggle('active');
+        overlay.classList.toggle('active');
+        document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+    }
+    hamburger.addEventListener('click', toggleMenu);
+    overlay.addEventListener('click', toggleMenu);
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => { if (nav.classList.contains('active')) toggleMenu(); }));
+
+    // Blog data
+    const blogGrid = document.getElementById('blogGrid');
+    const blogArticle = document.getElementById('blogArticle');
+    const blogBack = document.getElementById('blogBack');
+    const tags = { 'News': 'news', 'Company': 'company', 'AC Tips': 'ac-tips' };
+
+    // Render cards
+    function renderCards(filter) {
+        blogGrid.innerHTML = '';
+        Object.keys(blogData).forEach(id => {
+            const post = blogData[id];
+            const slug = tags[post.tag] || '';
+            if (filter !== 'all' && slug !== filter) return;
+
+            const card = document.createElement('div');
+            card.className = 'blog-page-card fade-in';
+            card.dataset.id = id;
+            card.innerHTML = `
+                <div class="blog-page-card-thumb" style="background: ${post.gradient}">
+                    <div class="blog-page-card-icon"><i class="${post.icon}"></i></div>
+                    <span class="blog-page-card-date">${post.date}</span>
+                </div>
+                <div class="blog-page-card-body">
+                    <span class="blog-page-card-tag">${post.tag}</span>
+                    <h3>${post.title}</h3>
+                    <p>${post.content.replace(/<[^>]*>/g, '').substring(0, 140)}...</p>
+                    <span class="blog-page-card-meta"><i class="fas fa-clock"></i> ${post.readTime}</span>
+                    <span class="blog-page-read-more">Read Article <i class="fas fa-arrow-right"></i></span>
+                </div>
+            `;
+            card.addEventListener('click', () => openArticle(id));
+            blogGrid.appendChild(card);
+        });
+
+        // Animate in
+        requestAnimationFrame(() => {
+            blogGrid.querySelectorAll('.fade-in').forEach((el, i) => {
+                el.style.transitionDelay = (i * 0.08) + 's';
+                el.classList.add('visible');
+            });
+        });
+    }
+
+    renderCards('all');
+
+    // Filter
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderCards(btn.dataset.filter);
+        });
+    });
+
+    // Open article
+    function openArticle(id) {
+        const post = blogData[id];
+        if (!post) return;
+
+        document.getElementById('articleHero').style.background = post.gradient;
+        document.getElementById('articleHeroIcon').innerHTML = '<i class="' + post.icon + '"></i>';
+        document.getElementById('articleTag').textContent = post.tag;
+        document.getElementById('articleTitle').textContent = post.title;
+        document.getElementById('articleDate').innerHTML = '<i class="fas fa-calendar-alt"></i> ' + post.date;
+        document.getElementById('articleReadTime').innerHTML = '<i class="fas fa-clock"></i> ' + post.readTime;
+        document.getElementById('articleBody').innerHTML = post.content;
+
+        blogGrid.style.display = 'none';
+        document.querySelector('.blog-page-filters').style.display = 'none';
+        blogArticle.style.display = 'block';
+        window.scrollTo({ top: blogArticle.offsetTop - 100, behavior: 'smooth' });
+        document.body.style.overflow = '';
+    }
+
+    blogBack.addEventListener('click', () => {
+        blogArticle.style.display = 'none';
+        blogGrid.style.display = '';
+        document.querySelector('.blog-page-filters').style.display = '';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+});
+</script>
+</body>
+</html>

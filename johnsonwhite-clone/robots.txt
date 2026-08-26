@@ -1,0 +1,11 @@
+# Robots.txt - Johnson White Cool Services
+# https://johnsonwhitecoolservices.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://johnsonwhitecoolservices.com/sitemap.xml
+
+# Disallow admin/internal paths
+Disallow: /admin/
+Disallow: /*.json$
